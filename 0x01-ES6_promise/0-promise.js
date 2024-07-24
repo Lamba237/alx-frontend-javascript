@@ -6,7 +6,7 @@ export default function getResponseFromAPI() {
       if (success) {
         resolve('API call succeeded!');
       } else {
-        reject('API call failed.');
+        reject(Error);
       }
     }, 1000); // Simulate a 1-second delay
   });
