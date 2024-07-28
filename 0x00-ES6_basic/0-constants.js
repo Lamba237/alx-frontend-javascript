@@ -1,5 +1,5 @@
 export function taskFirst() {
-	// taskFirst function
+// taskFirst function, introduction to Javascript
   const task = 'I prefer const when I can.';
   return task;
 }
